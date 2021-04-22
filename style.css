@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+body,h1,h2,ul,li,dl,dt,dd,p,div{margin:0; padding:0;}
+body{color:#666666; font-size:12px; background:url(images/bgindex.jpg) repeat-x #2C383E;}
+ul{list-style:none;}
+a{text-decoration:none;}
+img{border:none; display:block;}
+/* reset label */
+a.more{ display:inline-block; background:url(images/more.gif) no-repeat left; width:65px; height:18px;}
+#navLeft{ width:266px; float:left;}	
+#navLeft embed{ height:200px; width:240px; margin:10px auto;}
+#aboutRight,#newsRight,#jobRight,#contactRight,#louRight,#guestRight{ float:left; width:550px; border-left:#ccc solid 1px; padding:21px; overflow:hidden; min-height:500px; _height:800px;}
+#newsRight p,#contactRight p,#louRight p,#guestRight p,#jobRight p{ clear:both; text-align:center; padding-top:20px;}
+h1{ text-indent:-9999px; background:url(images/wel.gif) no-repeat top left; width:127px; height:35px; font-size:100%;}
+/* gather declare */
+#wrapper{ width:867px; background-color:#fff; margin:0 auto;}
+#header embed{ width:867px; height:323px; display:block;}
+#nav ul{ width:867px; background:url(images/linkbg.jpg) repeat-x top left; overflow:hidden;}
+#nav li{ float:left; background:url(images/linkr.gif) no-repeat right;}
+#nav a{float:left; display:block; line-height:51px; height:51px; text-decoration:none; width:123px; text-align:center; color:#FFF; }
+#nav a:hover{color:#FFFF00; font-size:16px; text-decoration:underline;}
+ /*index nav end*/
+#welcome{ clear:both; width:208px; padding:21px; float:left; height:448px; background:url(images/weline.gif) no-repeat right;}
+#welcome ul{ width:183px; margin:12px 0; }
+#welcome li{line-height:180%; }
+#welcome li#line{ height:8px; border-top:#ccc solid 1px;  overflow:hidden; line-height:100%;}
+ /* index left end */
+#news{ float:left; width:279px; height:252px; padding:21px 0 21px 21px;}
+#news h1,#newsRight h1{ background-image:url(images/news.gif);}
+#news ul{ margin-top:12px; border-right:#ccc solid 1px;}
+#news li{ text-indent:1em; height:18px; line-height:18px;}
+#news li.date{ background:url(images/ico.gif) no-repeat left; color:#FFA500; font:bold 12px Arial, Helvetica, sans-serif;}
+ /* index news end*/
+#about{ float:left; width:258px; height:252px; padding:21px; }
+#about h1,#aboutRight h1{ background-image:url(images/aboutme.gif);}
+#aboutImg{ width:235px; height:80px;}
+#about p{ width:235px; line-height:150%; margin:8px 0 8px 0;}
+/*index about end */
+#estate{ float:left; width:537px; height:150px; margin:21px auto 0 33px; border-top:#ccc solid 1px; padding-top:16px;}
+#estate #estateImg{ float:left; display:inline;}
+#estate h1{ width:248px; margin:0 12px 0; float:right; display:inline; background-image:url(images/lou.gif);}
+#estate dl{ float:right; display:inline; width:248px; margin:0 12px 0;}
+#estate dd,dt{ margin-top:8px;}
+/*index estate end*/
+#footer{ clear:both; background:url(images/bg.gif); height:112px;}
+#footer p{ text-align:right; color:#CCC; font:10px Arial, Helvetica, sans-serif; margin:12px 8px;}
+ /*index footer end */
+#aboutRight aboutImg{ width:100%;}
+#aboutRight p{ line-height:200%; text-indent:2em;}			
+#aboutRight span{ color:#0066FF;}	
+ /* aboutPage end */
+#newsRight ul{margin:12px 0;}
+#newsRight li{ line-height:200%;text-indent:18px; background:url(images/ico.gif) no-repeat left;}
+#newsRight a{ color:#0066FF; }
+#newsRight a:hover{ color:#FF6600; text-decoration:underline;}
+#newsRight p{ text-align:right;}
+ /*newsPage end */
+#louRight h1{ background-image:url(images/lou.gif);}
+#louRight dl{width:250px; height:187px; float:left; overflow:hidden; margin-right:12px;}
+#louRight dd{ width:250px; height:150px; }
+#louRight dt{ width:230px; margin:6px auto;; height:30px; line-height:30px; background-color:#EEEEEE; text-align:center; border-bottom:#FF6600 solid 1px;}
+ /*estatePage end */
+#jobRight h1{ background-image:url(images/job.gif);}
+#jobRight table{width:540px; height:105px; border-collapse:collapse;}
+#jobRight td,#jobRight th{ border:#ccc solid 1px; padding:0 12px; height:25px; line-height:25px; text-align:center;}
+#jobRight th{ background-color:#EEEEEE;}
+#jobRight tr:hover{ background-color:#CCCC00;}
+#jobRight a:hover{ text-decoration:underline;}
+ /*jobPage end */
+#contactRight h1{ background-image:url(images/lianxi.gif);}
+#contactRight ul{ margin:21px 0;}
+#contactRight li{ line-height:200%;}
+/*-contactPage us end--*/
+#guestRight h1{ background-image:url(images/Message.gif);}
+#guestRight div{ margin-top:12px;}
+#guestRight label{ float:left;}
+#guestRight textarea{ width:210px; height:80px;}
+#guestRight #sub{ border:#ccc solid 1px;}
+#guestRight #sub:hover{ background-color:#666;}
+/* -messagePage end --*/
+.warp {
+    width: 200px;
+    height: 550px;
+    text-align: center;
+}
+.img{
+	margin:20px;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+}
